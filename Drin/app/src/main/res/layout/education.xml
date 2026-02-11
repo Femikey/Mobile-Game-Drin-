@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/main_background"
+        android:contentDescription="@string/text" />
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignBottom="@id/back"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:text="@string/x" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="70dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:id="@+id/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/ed1"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/ed2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/ed2"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/Fire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:contentDescription="@string/text"
+                app:srcCompat="@drawable/fire4" />
+
+            <TextView
+                android:id="@+id/edFire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/edFire"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/Human"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:contentDescription="@string/text"
+                app:srcCompat="@drawable/human4" />
+
+            <TextView
+                android:id="@+id/edHuman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/edHuman"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/Sword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/text"
+                app:srcCompat="@drawable/sword4" />
+
+            <TextView
+                android:id="@+id/edSword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/edSword"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/Money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/text"
+                app:srcCompat="@drawable/money4" />
+
+            <TextView
+                android:id="@+id/edMoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="90dp"
+                android:text="@string/edMoney"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

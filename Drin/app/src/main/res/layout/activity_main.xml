@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/text"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_background" />
+
+    <RelativeLayout
+        android:id="@+id/start_layout"
+        android:layout_width="197dp"
+        android:layout_height="301dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="1000dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/button1"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="1000dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/btn"
+            android:text="@string/button2"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="1000dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/btn"
+            android:paddingHorizontal="20dp"
+            android:text="@string/button3"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/text"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/main_background" />
+
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@id/back"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:text="@string/x" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/buttons_hear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:text="@string/sn"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

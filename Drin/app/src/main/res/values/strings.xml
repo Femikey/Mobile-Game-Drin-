@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Drin</string>
+    <string name="button1">Играть</string>
+    <string name="button2">Обучение</string>
+    <string name="button3">Настройки</string>
+    <string name="text">text</string>
+    <string name="sn">Звук</string>
+    <string name="x">X</string>
+    <string name="ed1">Вы - дракон, правитель поселения. Ваша задача - следить за процветанием своих земель и послушанием подданых.</string>
+    <string name="ed2">По всем делам обращаются к Вам, Вы же и решаете как поступить. Ваше процветание зависит от поддержания на должном уровне четырех характеристик. Если одна из них упадет до нуля или превысит свой максимум, Вас ждет незавидная участь.</string>
+    <string name="edFire">Первая характеристика: уважение других драконов.\n Ваше место в мире во многом зависит от отношения других правителей-драконов. Помогайте братьям, заботьтесь о младших, иследуйте мир.</string>
+    <string name="edHuman">Вторая характеристика: население Ваших владений. Что за правитель без подданых? Добывайте пищу, следите за благополучием земель.</string>
+    <string name="edSword">Третья характеристика: армия. Настоящий правитель должен уметь обеспечить защиту своих земель. Несмотря на Вашу личную силу, опасайтесь гнева народа. Изобретайте оружие, стройте военные сооружения, следите за горнизоном поселения.</string>
+    <string name="edMoney">Четвертая характеристика: золото. Никакое поселение не сможет прожить без финансов. Поддерживайте свою казну на должном уровне. Если того требует ситуация, всегда можно взять в долг.</string>
+
+
+    <string name="q1">Произошло ограбление! Какая-то наглая банда вторглась в сокровищницу!</string>
+    <string name="q2">Зерно сильно подешевело, Мудрейший. Нужно регулировать цену на хлеб.</string>
+    <string name="q3">На нас напали виверны! Нужно оборонять страну с севера!</string>
+    <string name="q4">Урожай просто сказочный, Мудрейший!</string>
+    <string name="q5">Вам нужен кредит? 10000 золотых под 9.99%</string>
+    <string name="q6">Долгих лет, друг! Я буду верить в процветание твоих земель.</string>
+    <string name="q7">Мы хотим посторить учебное заведение для повышения уровня знаний народа</string>
+    <string name="q8">Я бы хотелa провести новое иследование магии и военного дела. Нужна поддержка.</string>
+    <string name="q9">Наши жители живут в спокойствии и достатке. Надо уменьшить расходы, для увеличения сокровищницы Вашего Мудрейшества</string>
+    <string name="q10">Как насчет отправить людей в поход?</string>
+    <string name="q11">Дракон Востока хочет встретиться с вами. Он легко может нас разгромить нам следует поприветствовать его как короля.</string>
+    <string name="q12">Произошел массовый побег из тюрьмы. Нужно организовать розыск.</string>
+    <string name="q13">Помогите! Помогите! Общественный амбар горит! Пришлите войска!</string>
+    <string name="q14">Я слышал странный шум в замке прошлой ночью. Нам нужно усилить патруль!</string>
+    <string name="q15">Скоро пройдет совет Высших. Надо поприсутствовать.</string>
+    <string name="q16">Нам трудно обрабатывать поля, мы не успеем засеять все к зиме. Помоги, Мудрейший.</string>
+    <string name="q17">На наших лесников стали нападать виверны. Как нам поступить, Мудрейший?</string>
+    <string name="q18">Брат, помоги, на моих землях царят бедность и голод.</string>
+    <string name="q19">Наши авантюристы нашли детенышей виверны глубоко в горах. Как поступить?</string>
+    <string name="q20">По улицам ходит \"\Пророк\"\ настраивающий народ протива Вас, Мудрейший. Как поступить?</string>
+
+    <string name="event1">Время возвращать долги</string>
+    <string name="eventl1">Вам конец!</string>
+    <string name="eventr1">Что?</string>
+
+    <string name="al1">Да</string>
+    <string name="al2">Удвойте</string>
+    <string name="al3">Напасть</string>
+    <string name="al4">Накормите народ</string>
+    <string name="al5">Нет</string>
+    <string name="al6">Нет</string>
+    <string name="al7">Да</string>
+    <string name="al8">Нет</string>
+    <string name="al9">Да</string>
+    <string name="al10">Нет</string>
+    <string name="al11">Нет</string>
+    <string name="al12">Нет</string>
+    <string name="al13">Да</string>
+    <string name="al14">Да</string>
+    <string name="al15">Да</string>
+    <string name="al16">Да</string>
+    <string name="al17">Истребить</string>
+    <string name="al18">Конечно</string>
+    <string name="al19">Убить</string>
+    <string name="al20">Убить</string>
+
+    <string name="ar1">Твои друзья?</string>
+    <string name="ar2">Поднимите немного</string>
+    <string name="ar3">Защищатся</string>
+    <string name="ar4">Накормите армию</string>
+    <string name="ar5">Да</string>
+    <string name="ar6">Да</string>
+    <string name="ar7">Нет</string>
+    <string name="ar8">Да</string>
+    <string name="ar9">Нет</string>
+    <string name="ar10">Да</string>
+    <string name="ar11">Да</string>
+    <string name="ar12">Да</string>
+    <string name="ar13">Нет</string>
+    <string name="ar14">Нет</string>
+    <string name="ar15">Нет</string>
+    <string name="ar16">Нет</string>
+    <string name="ar17">Oставить</string>
+    <string name="ar18">Нет</string>
+    <string name="ar19">Вырастить</string>
+    <string name="ar20">Разоблачить</string>
+
+    <string name="score">Сделано ходов:</string>
+    <string name="record">Рекорд ходов:</string>
+    <string name="restart">Заново</string>
+    <string name="back">В меню</string>
+    <string name="losedr0">Уровень уважения драконов упал до критической отметки.</string>
+    <string name="losedr8">Уровень уважения драконов вырос слишком высоко.</string>
+    <string name="losehu0">Уровень населения упал до критической отметки.</string>
+    <string name="losehu8">Уровень населения вырос слишком высоко.</string>
+    <string name="losesw0">Уровень армии упал до критической отметки.</string>
+    <string name="losesw8">Уровень армии вырос слишком высоко.</string>
+    <string name="losemo0">Уровень казны упал до критической отметки.</string>
+    <string name="losemo8">Уровень казны вырос слишком высоко.</string>
+
+
+</resources>
